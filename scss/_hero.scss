@@ -1,0 +1,43 @@
+.hero {
+    background: url('../img/hero/hero-bg.png') no-repeat fixed;
+    background-size: cover;
+    background-position: center right;
+
+    position: relative;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+
+        max-width: 580px;
+        margin: 0 auto;
+        padding: 280px 0;
+
+        text-transform: uppercase;
+        color: $white;
+    }
+
+    &__logo {
+        margin: 0 0 100px 0;
+    }
+
+    &__title {
+        font-size: 54px;
+        font-weight: 700;
+        letter-spacing: 8.62px;
+
+        margin: 0 0 50px 0;
+    }
+
+    &__text {
+        font-size: 15px;
+        line-height: 29px;
+    }
+
+    &__scroll {
+        position: absolute;
+        bottom: 100px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

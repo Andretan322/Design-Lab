@@ -1,0 +1,114 @@
+@media screen and (max-width: 1024px) {
+    .hero {
+
+    padding: 0 20px;
+
+    &__content {
+        padding: 150px 0;
+    }
+
+    &__scroll {
+        bottom: 30px;
+    }
+}
+
+    .about-us {
+        padding: 160px 20px;
+    }
+
+    .services {
+        padding: 130px 20px;
+    }
+
+    .what {
+        padding: 110px 20px;
+    }
+
+    .cities {
+        &__content {
+            gap: 1%;
+        }
+
+        &__small, &__big {
+            flex: 1 1 49%;
+            margin: 0 0 10px 0;
+        }
+    }
+
+    .contact-us {
+        padding: 130px 20px 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .about-us {
+        &__content {
+            padding: 60px 10px 30px;
+        }
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .services {
+        &__content {
+            padding: 60px 10px 30px;
+        }
+    }
+
+    .what {
+        &__content {
+            padding: 45px 10px;
+        }
+    }
+
+    .cities {
+
+        &__small, &__big {
+            flex: 1 1 100%;
+            margin: 0 0 10px 0;
+        }
+    }
+
+    .contact-us {
+        &__content {
+            padding: 50px 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .about-us {
+        padding: 80px 20px;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .services {
+        padding: 65px 20px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .hero {
+
+        &__content {
+            padding: 80px 0;
+        }
+
+        &__title {
+            font-size: 46px;
+        }
+
+        &__scroll {
+            display: none;
+        }
+    }
+
+    .contact-us {
+        padding: 65px 20px 30px;
+    }
+}

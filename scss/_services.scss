@@ -1,0 +1,38 @@
+.services {
+    background: url('../img/services/services.jpg.png') no-repeat fixed;
+    background-size: cover;
+    background-position: center center;
+
+    padding: 130px 0;
+    color: $white;
+
+    &__content {
+        position: relative;
+        padding: 30px 0;
+
+        outline: 2px solid $white;
+    }
+
+    &__title {
+        text-transform: uppercase;
+        letter-spacing: 8.95px;
+        font-size: 34px;
+        font-weight: 700;
+        position: absolute;
+        top: -5px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 50%;
+    }
+
+    &__title::before, &__title::after {
+        content: '';
+        width: 50%;
+    }
+
+    &__text {
+        p:not(:last-child) {
+            margin: 0 0 10px 0;
+        }
+    }
+}

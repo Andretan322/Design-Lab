@@ -1,0 +1,33 @@
+.what {
+    padding: 110px 0;
+    color: $black;
+
+    &__content {
+        position: relative;
+        padding: 90px 0;
+
+        outline: 2px solid $black;
+    }
+
+    &__block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__block:not(:last-child) {
+        margin: 0 0 110px 0;
+    }
+
+    &__img {
+        margin: 0 0 40px 0;
+    }
+
+    &__title_block {
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        margin: 0 0 35px 0;
+    }
+}

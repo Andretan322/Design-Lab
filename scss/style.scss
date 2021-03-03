@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+@import "_reset";
+
+$white: #fff;
+$black: #3c3c3c;
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+.page {
+    width: 100%;
+
+    flex: 1 1 auto;
+    text-align: center;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+.title {
+    text-transform: uppercase;
+    letter-spacing: 8.95px;
+    font-size: 34px;
+    font-weight: 700;
+
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: #ffffff;
+    width: 50%
+}
+.text {
+    max-width: 550px;
+    margin: 0 auto;
+
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+}
+@import "_hero";
+@import "_about-us";
+@import "_services";
+@import "_what";
+@import "_cities";
+@import "_contact-us";
+@import "_footer";
+
+@import "_responsive";

@@ -1,0 +1,36 @@
+.contact-us {
+    padding: 130px 0 50px;
+    color: $black;
+
+    &__content {
+        position: relative;
+        padding: 50px 0;
+
+        outline: 2px solid $black;
+    }
+
+    &__text {
+
+        p:not(:last-child) {
+            margin: 0 0 10px 0;
+        }
+    }
+
+    &__btn {
+        max-width: 400px;
+        height: 60px;
+        margin: 40px auto 0;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background: #3c3c3c;
+
+        a {
+            text-transform: uppercase;
+            font-size: 16px;
+            color: $white;
+        }
+    }
+}
