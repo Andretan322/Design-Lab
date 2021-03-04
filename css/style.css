@@ -350,7 +350,7 @@ body {
     gap: 1%;
   }
   .cities__small, .cities__big {
-    flex: 1 1 49%;
+    flex: 1 1 48%;
     margin: 0 0 10px 0;
   }
 
